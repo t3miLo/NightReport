@@ -11,8 +11,8 @@ browser.get(r"https://accounts.iqmetrix.net/Account/Login?returnUrl=https%3a%2f%
 
 # Login to iQ Metrix website
 browser.find_element_by_name("UserName").send_keys(
-    "Alberto.Morejon@springcommunications")
-browser.find_element_by_name("Password").send_keys("Ethan!0!0")
+    "USERNAME@springcommunications")
+browser.find_element_by_name("Password").send_keys("PASSWORD")
 browser.find_element_by_name("Submit").click()
 
 
